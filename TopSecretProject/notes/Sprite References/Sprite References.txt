@@ -1,0 +1,29 @@
+This is a reference so that we can easily depict how we should set up sprites and how sprites have
+been globally set up. This aims to make it easier to create more things in the game later on
+
+
+--- NAMING CONVENTIONS ---
+the prefix for naming a sprite is:
+
+spr_
+
+===========================
+Player Sprites:
+
+a player sprite for an animation would go as follows
+
+spr_Player/CharacterName_Animation
+
+(spr_player_attack1)
+===========================
+Background Sprites:
+
+bg_BackgroundName
+===========================
+Tileset Sprites:
+spr_tsTILESETNAME
+===========================
+Everything else can be named whatever you want it to afterwards
+
+
+
