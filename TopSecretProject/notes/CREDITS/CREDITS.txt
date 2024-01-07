@@ -1,0 +1,24 @@
+Everytime we use an asset we should add the creators name to this list, so that we can give attribution to
+their work and all of their efforts
+
+Sprites:
+Szadi		- Itch.io
+
+
+
+
+Sounds:
+
+
+BG:
+
+
+Tilesets:
+
+
+Scripts:
+
+
+Special thanks:
+Shaun Spaulding
+Heartbeast
