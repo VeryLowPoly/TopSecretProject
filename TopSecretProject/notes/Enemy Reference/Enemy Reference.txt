@@ -1,0 +1,14 @@
+
+
+This will be an explanation of the enemies and what enemies do
+
+the enumerator setup for enemies can be found in the "iniScript" (not an actual ini file)
+
+Enemy AI behavior and other bits will be recorded here as we progress and figure that out
+
+
+
+
+
+
+

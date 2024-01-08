@@ -1,0 +1,11 @@
+
+
+The menu design hasn't been fully fleshed out or discussed, but a menu itself
+is actually a little bit of planning. We'll need to figure out what options
+and capabilities our menu(s) will have, and balance that with how much we're
+currently capable of
+
+
+
+
+

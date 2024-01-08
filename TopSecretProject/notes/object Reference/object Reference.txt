@@ -1,0 +1,14 @@
+
+
+Collision objects will work as solid objects unless they're "fall-through platforms"
+where a player would press down and fall through them, or jump up through them from
+underneath them
+
+Any objects we might need to make solid but don't want to write out collision checks
+
+Take that object and set "obj_CollisionParent" as it's Parent in the dropdown menu of
+the object itself
+
+
+
+

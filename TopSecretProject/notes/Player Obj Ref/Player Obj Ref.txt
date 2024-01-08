@@ -1,0 +1,2 @@
+This is a current explanation of the player (kind of). Outside of the notes left in the player obj
+I will try to explain what's needed to make a character object do what it needs to do

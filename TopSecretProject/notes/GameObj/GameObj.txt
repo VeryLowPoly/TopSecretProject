@@ -1,0 +1,16 @@
+
+Game Objects are going to be objects that the player doesn't ever interact with
+
+For example:
+
+	- things that hold achievements
+	- things that read/write save data
+	- and controller of calculation
+	- map controller, etc
+	- spawners/teleporters/doors
+	- Camera assets and whatnot
+
+
+
+
+
