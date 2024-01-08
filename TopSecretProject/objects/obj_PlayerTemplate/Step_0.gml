@@ -21,6 +21,9 @@ switch (state)
 		//Air state (jumping and falling)
 		case PlayerStates.AIR: knightAir(); break;
 		
+		//Sprint State
+		case PlayerStates.SPRINT: knightSprint(); break;
+		
 		//Duck/Crouching state
 		case PlayerStates.CROUCH: knightCrouch(); break;
 	

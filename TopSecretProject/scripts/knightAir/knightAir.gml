@@ -13,13 +13,12 @@ if (move != 0)
 {
 	if (!keySprint)
 	{
-	hsp = lerp(hsp, move*airspd, 0.3);
-	} else if (keySprint)
-	{
+	hsp = lerp(hsp, move*airspd, 0.1);
+	} else if (keySprint) {
 	hsp = lerp(hsp, move*fastairspd, 0.5);	
 	}
 } else {
-	hsp = lerp(hsp, 0, 0.2);	
+	hsp = lerp(hsp, 0, 0.05);	
 }
 
 vsp = vsp + grav;
@@ -52,14 +51,6 @@ getCollide();
 
 	if (vsp < 0)
 	{
-		if (place_meeting(sprite_width/2,y-34,obj_blockparent))
-		{
-			with (other)
-			{
-				bumped = true;	
-			}
-		}
-		
 		sprite_index = spr_knight_jump;
 		image_index = 1;
 	} else {
