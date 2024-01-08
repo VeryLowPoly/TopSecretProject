@@ -13,7 +13,7 @@ function iniScript(){
 enum PlayerStates {
 	MOVE,
 	SPRINT,
-	JUMP,
+	AIR,
 	CROUCH,
 	LAND,
 	FLINCH,
