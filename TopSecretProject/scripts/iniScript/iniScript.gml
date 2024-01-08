@@ -39,6 +39,6 @@ enum PlayerStates {
 
 }
 
-
+global.CurrentAttHB = noone;
 
 }

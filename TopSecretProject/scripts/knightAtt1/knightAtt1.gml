@@ -2,8 +2,8 @@ function knightAtt1(){
 getInputs();
 	if (sprite_index != spr_knight_att1) {sprite_index = spr_knight_att1;}
 	
-	hsp = (.5) * image_xscale;
-	vsp = -.1;
+	hsp = (.2) * image_xscale;
+	vsp = -.2;
 	
 	
 	if (image_index > 7) {
