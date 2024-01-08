@@ -29,6 +29,15 @@ getInputs();
 		sprite_index = spr_knight_idle;
 	}
 
+	//Attack check
+	if (keyAttack) && (canAtt)
+	{
+		hsp = 0;
+		state = PlayerStates.ATTACK1;
+		sprite_index = spr_knight_att1;
+		image_index = 0;
+		canAtt = false;
+	}
 	
 	//sprint check
 	if (grounded) && (keySprint)	//checking if we're on the ground and using sprint

@@ -27,6 +27,8 @@ switch (state)
 		//Duck/Crouching state
 		case PlayerStates.CROUCH: knightCrouch(); break;
 	
+		//attack 1 
+		case PlayerStates.ATTACK1: knightAtt1(); break;
 }
 
 //keep the player flipped the right way

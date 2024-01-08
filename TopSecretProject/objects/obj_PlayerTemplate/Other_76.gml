@@ -7,17 +7,14 @@
 
 */
 
-
-/* 
-
+/*
 if (event_data[? "event_type"] == "sprite event") {
 	switch(event_data[? "message"]) {
-		case "footstep": audio_play_sound(choose(snd_ftstp1,snd_ftstp2,snd_ftstp3),3,false); break;
+		case "canatt": something break;
 	}
 }
 
 */
-
 
 
 

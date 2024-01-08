@@ -1,15 +1,29 @@
 function knightAtt1(){
 getInputs();
+	if (sprite_index != spr_knight_att1) {sprite_index = spr_knight_att1;}
+	
+	hsp = (.5) * image_xscale;
+	vsp = -.1;
 	
 	
+	if (image_index > 7) {
+		state = PlayerStates.MOVE;
+		canAtt = true;
+		sprite_index = spr_knight_idle;
+		image_index = 0;
+	}
+	
+	/*
+	if (image_index > 5) && (image_index < 8)
+	{
+		if (keyAttack)
+		{
+			state = PlayerStates.ATTACK2;	
+		}
+	}
+	*/
 	
 	vsp = vsp + grav;	//Apply gravity
-
-	//fall check
-	if (!place_meeting(x,y+1,[obj_solid, obj_blockparent]))	//if there's nothing underneath the player
-	{
-		state = PlayerStates.AIR;	//set them to free fall
-	}
 
 
 getCollide();
