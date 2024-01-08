@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "KnightScripts",
-    "path": "folders/Scripts/PlayerScripts/KnightScripts.yy",
+    "name": "knightMovement",
+    "path": "folders/Scripts/PlayerScripts/KnightScripts/knightMovement.yy",
   },
 }
