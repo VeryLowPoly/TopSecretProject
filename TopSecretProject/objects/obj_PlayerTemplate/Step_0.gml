@@ -26,8 +26,8 @@ switch (state)
 	
 }
 
-
-
+//keep the player flipped the right way
+if (hsp != 0) {image_xscale = sign(hsp);}
 
 
 
