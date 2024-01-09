@@ -37,10 +37,7 @@ getInputs();
 		state = PlayerStates.ATTACK1;
 		sprite_index = spr_knight_att1;
 		image_index = 0;
-		if (!instance_exists(obj_hboxHandler))
-		{
-			instance_create_layer(x,y,"Player",obj_hboxHandler);			
-		}
+		instance_create_layer(x,y,"Player",obj_hboxHandler);	
 		canAtt = false;
 	}
 	
