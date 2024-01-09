@@ -29,6 +29,9 @@ switch (state)
 	
 		//attack 1 
 		case PlayerStates.ATTACK1: knightAtt1(); break;
+		
+		//attack 2
+		case PlayerStates.ATTACK2: knightAtt2(); break;
 }
 
 //keep the player flipped the right way
