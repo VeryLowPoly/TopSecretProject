@@ -21,7 +21,8 @@ getInputs();
 		state = PlayerStates.ATTACK2;
 		sprite_index = spr_knight_att2;
 		image_index = 0;
-		instance_create_layer(x,y,"Player",obj_hboxHandler);			
+		instance_create_layer(x,y,"Player",obj_hboxHandler);
+		audio_play_sound(snd_slash,3,false);
 		canAtt = false;
 	}
 	}
