@@ -39,6 +39,12 @@ enum PlayerStates {
 
 }
 
+enum DUMMY {
+	IDLE,
+	HIT,
+	BROKEN
+}
+
 global.CurrentAttHB = noone;
 
 }

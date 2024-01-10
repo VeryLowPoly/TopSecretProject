@@ -39,6 +39,7 @@ getInputs();
 		image_index = 0;
 		instance_create_layer(x,y,"Player",obj_hboxHandler);	
 		canAtt = false;
+		audio_play_sound(snd_slash,3,false);
 	}
 	
 	//sprint check
