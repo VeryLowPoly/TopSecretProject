@@ -2,7 +2,7 @@ function knightAtt1(){
 getInputs();
 	if (sprite_index != spr_knight_att1) {sprite_index = spr_knight_att1;}
 	
-	hsp = (.1) * image_xscale;
+	hsp = (.05) * image_xscale;
 	vsp = -.1;
 	
 	
@@ -21,10 +21,21 @@ getInputs();
 		state = PlayerStates.ATTACK2;
 		sprite_index = spr_knight_att2;
 		image_index = 0;
-		instance_create_layer(x,y,"Player",obj_hboxHandler);
+		var hbox = instance_create_layer(x,y,"Player",obj_hboxHandler);
+		with (hbox) {
+			if (didHit == true)
+			{
+				obj_PlayerTemplate.didHit = true;
+			}
+		}
 		audio_play_sound(snd_slash,3,false);
 		canAtt = false;
+		}
 	}
+	
+	if (didHit)
+	{
+		hsp = (2) * -sign(hsp);
 	}
 	
 	vsp = vsp + grav;	//Apply gravity

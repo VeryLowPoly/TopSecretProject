@@ -15,6 +15,7 @@ runspd = 4;			//Running Speed
 airspd = 3;			//Aerial drift (no run button)
 fastairspd = 4;		//Aerial drift (with speed)
 grounded = false;	//variable to check if player is on ground
+didHit = false;
 canAtt = true;			//variable for allowing melee attack
 canShoot = false;		//variable for allowing ranged attack
 canAbility = false;		//variable for allowing ability activation
