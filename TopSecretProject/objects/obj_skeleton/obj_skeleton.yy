@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hitfx1",
+  "name": "obj_skeleton",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "hitFX",
-    "path": "folders/Objects/GFXobjs/hitFX.yy",
+    "name": "SkeletonObj",
+    "path": "folders/Objects/EnemyObj/SkeletonObj.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,9 +28,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hitef1",
-    "path": "sprites/spr_hitef1/spr_hitef1.yy",
+    "name": "spr_skeleton_idle",
+    "path": "sprites/spr_skeleton_idle/spr_skeleton_idle.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "spr_skeleton_mask",
+    "path": "sprites/spr_skeleton_mask/spr_skeleton_mask.yy",
+  },
   "visible": true,
 }

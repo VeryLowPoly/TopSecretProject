@@ -16,6 +16,24 @@ getInputs();
 		state = PlayerStates.MOVE;
 	}
 	
+	//attack
+	if (keyAttack) && (canAtt)
+	{
+		hsp = 0;
+		global.CurrentAttHB = spr_knight_cAtt1HB;
+		state = PlayerStates.CROUCHATT1;
+		sprite_index = spr_knight_cAtt1;
+		image_index = 0;
+		var hbox = instance_create_layer(x,y,"Player",obj_hboxHandler);	
+		with (hbox) {
+			if (didHit) {
+				obj_PlayerTemplate.didHit = true;	
+			}
+		}
+		canAtt = false;
+		audio_play_sound(snd_slash,3,false);
+	}
+	
 	if (!grounded) {state = PlayerStates.AIR;}
 	
 	getCollide();

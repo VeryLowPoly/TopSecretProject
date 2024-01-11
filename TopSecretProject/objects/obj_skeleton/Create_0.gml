@@ -3,11 +3,6 @@
 
 
 
-if (instance_exists(obj_PlayerTemplate)) {
-	x = obj_PlayerTemplate.x;
-	y = obj_PlayerTemplate.y;
-}
-
 
 
 
