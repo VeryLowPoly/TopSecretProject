@@ -5,7 +5,7 @@ with (other) //"other" returns id of enemy we're colliding with instead of all o
 {
 	//if not invincible or whatever (later on)
 	
-	//hp--;
+	hp--;
 	flash = 3;
 	
 }
