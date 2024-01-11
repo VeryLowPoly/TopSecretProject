@@ -12,6 +12,9 @@ getInputs();
 		canAtt = true;
 		sprite_index = spr_knight_crouch;
 		image_index = 0;
+		} else if (!keyDown) {
+			state = PlayerStates.MOVE;
+			canAtt = true;
 		}
 	}
 	

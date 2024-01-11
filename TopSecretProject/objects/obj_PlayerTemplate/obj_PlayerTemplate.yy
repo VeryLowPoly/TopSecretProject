@@ -15,7 +15,10 @@
     "name": "knightGuy",
     "path": "folders/Objects/PlayerObj/knightGuy.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_playerParent",
+    "path": "objects/obj_playerParent/obj_playerParent.yy",
+  },
   "persistent": false,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,
