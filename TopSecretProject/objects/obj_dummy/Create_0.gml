@@ -7,6 +7,7 @@ timer = 6;
 dmgTaken = 0;
 isHit = false;
 canHit = true;
+flash = 0; //frame counter for when to flash the sprite a white color
 
 state = DUMMY.IDLE;
 

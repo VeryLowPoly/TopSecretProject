@@ -23,19 +23,11 @@ getInputs();
 		image_index = 0;
 		var hbox = instance_create_layer(x,y,"Player",obj_hboxHandler);
 		with (hbox) {
-			if (didHit == true)
-			{
-				obj_PlayerTemplate.didHit = true;
-			}
+			
 		}
 		audio_play_sound(snd_slash,3,false);
 		canAtt = false;
 		}
-	}
-	
-	if (didHit)
-	{
-		hsp = (2) * -sign(hsp);
 	}
 	
 	vsp = vsp + grav;	//Apply gravity

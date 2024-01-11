@@ -6,6 +6,7 @@ with (other) {
 	isHit = true;
 	canHit = false;
 	state = DUMMY.HIT;
+	flash = 3;
 	}
 	image_xscale = other.image_xscale;
 	var hitfx = instance_create_layer(x,y-4,"FxLayer",obj_hitfx1);
@@ -16,9 +17,12 @@ with (other) {
 }
 
 
+with (obj_PlayerTemplate)
+{
+	hsp = -hsp;
+}
+
 instance_destroy();
-
-
 
 
 
