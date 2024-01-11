@@ -44,6 +44,30 @@ enum DUMMY {
 	HIT,
 	BROKEN
 }
+	//enemy enums
+#region
+enum Skeletonstates {
+	IDLE,
+	WALK,
+	JUMP,
+	FLINCH,
+	DEAD,
+	ATT1,
+	ATT2,
+	ATT3
+}
+
+#endregion
+
+
+
+
+
+
+
+
+
+
 
 global.CurrentAttHB = noone;
 
