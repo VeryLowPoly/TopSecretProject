@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_caves2_szadi",
+  "name": "bg_caves1_szadi",
   "bbox_bottom": 479,
   "bbox_left": 0,
   "bbox_right": 959,
@@ -13,14 +13,14 @@
   "edgeFiltering": false,
   "For3D": false,
   "frames": [
-    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"81785090-7bc3-4fb8-a489-8c6007ce4599",},
+    {"resourceType":"GMSpriteFrame","resourceVersion":"1.1","name":"33a2da36-3ae2-4613-9d06-42d321319032",},
   ],
   "gridX": 0,
   "gridY": 0,
   "height": 480,
   "HTile": false,
   "layers": [
-    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"f89c1a25-50ca-4a32-b4b3-6a4c4e976995","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
+    {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"8edbfb4d-abbc-45b3-8224-c3cb0f59b748","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
   ],
   "nineSlice": null,
   "origin": 0,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_caves2_szadi",
+    "name": "bg_caves1_szadi",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"81785090-7bc3-4fb8-a489-8c6007ce4599","path":"sprites/spr_caves2_szadi/spr_caves2_szadi.yy",},},},"Disabled":false,"id":"b7414a8c-7b06-4afd-a24e-9cc8e7b6653e","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"33a2da36-3ae2-4613-9d06-42d321319032","path":"sprites/bg_caves1_szadi/bg_caves1_szadi.yy",},},},"Disabled":false,"id":"9e2ca75d-e322-4992-a3cc-7c97c62331af","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
