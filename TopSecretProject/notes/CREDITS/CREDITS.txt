@@ -1,22 +1,62 @@
 Everytime we use an asset we should add the creators name to this list, so that we can give attribution to
 their work and all of their efforts
 
-Sprites:
-Szadi		- Itch.io
+names will go up and come down when we know which assets we've used overall
 
+Storyboarding:
+Grapes
+T4tsu
+VeryLowPoly
 
+Directors:
+Grapes
+T4tsu
 
+Developers:
+VeryLowPoly
+Grapes
+T4tsu
+
+Artwork and Assets:
+Szadi				- Itch.io
+Adamatonic			- Itch.io (unused)
+Anokolisa			- Itch.io
+Ansimuz				- Itch.io
+Atelier Magicae		- Itch.io
+BDragon1727			- Itch.io
+Brullov				- Itch.io
+Clembod				- Itch.io
+CodeCrackers		- Itch.io
+CodeManu			- Itch.io
+CreativeKind		- Itch.io
+Estúdio Vaca Roxa	- Itch.io
+Foozle				- Itch.io
+Legnops				- Itch.io
+LLENJIN				- Itch.io (crops)
+Foozle				- Itch.io
+MOMONGA				- Itch.io (unused)
+Smithy Games		- Itch.io (unused)
+Sventhole			- Itch.io (unused)
+
+Coding:
+VeryLowPoly
+Grapes
+
+Level/World Design:
+Grapes
+T4tsu
+VeryLowpPoly
+
+General Game Design:
+Grapes
+T4tsu
+VeryLowPoly
 
 Sounds:
+Ansimuz			- Itch.io
+Darkworld Audio	- Itch.io
+Atelier Magicae	- Itch.io
 
-
-BG:
-
-
-Tilesets:
-
-
-Scripts:
 
 
 Special thanks:
