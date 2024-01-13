@@ -15,6 +15,11 @@ if (distance_to_object(obj_playerParent) > 96) {
 	sprite_index = spr_skeleton_idle;
 }
 
+if (distance_to_object(obj_playerParent) < 12) {
+	hsp = 0;
+	state = Skeletonstates.ATT1;
+}
+
 enemyGetCollide();
 
 

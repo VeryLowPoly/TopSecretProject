@@ -22,7 +22,9 @@ healthbar_y = y - 68;
 
 state = Skeletonstates.IDLE;
 
-
+attacking = false;
+canAtt = true;
+canFollow = true;
 
 
 

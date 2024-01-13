@@ -7,9 +7,10 @@ if (isHit == true) {
 	state = Skeletonstates.FLINCH;
 }
 
+
 if (distance_to_object(obj_playerParent) < 64) {
-	state = Skeletonstates.WALK;
-	sprite_index = spr_skeleton_walk;
+		state = Skeletonstates.WALK;
+		sprite_index = spr_skeleton_walk;
 }
 
 

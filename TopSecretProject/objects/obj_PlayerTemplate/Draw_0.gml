@@ -1,10 +1,10 @@
 /// @description Insert description here
 // You can write your code in this editor
 
+draw_self();
 
-x = Efollow.x;
-y = Efollow.y;
-image_xscale = Efollow.image_xscale;
+draw_text(x,y,hp);
+
 
 
 
