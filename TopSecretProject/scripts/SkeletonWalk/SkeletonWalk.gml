@@ -6,8 +6,13 @@ hsp = (0.5) * image_xscale;
 
 if (isHit == true) {
 	state = Skeletonstates.FLINCH;
-	hsp = 3 * -image_xscale;
+	hsp = 6 * -image_xscale;
 	vsp = -1;
+}
+
+if (distance_to_object(obj_playerParent) > 96) {
+	state = Skeletonstates.IDLE;
+	sprite_index = spr_skeleton_idle;
 }
 
 enemyGetCollide();

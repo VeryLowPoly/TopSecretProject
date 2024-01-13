@@ -2,6 +2,7 @@ function SkeletonFlinch(){
 	if (sprite_index != spr_skeleton_flinch) sprite_index = spr_skeleton_flinch;
 	
 	vsp += grav;
+	hsp = lerp(hsp,0,0.3);
 	
 	if (image_index > 3) && (hp > 0) {
 		state = Skeletonstates.IDLE;	
@@ -16,5 +17,7 @@ function SkeletonFlinch(){
 		canHit = false;
 		isHit = false;
 	}
+	
+	enemyGetCollide();
 
 }

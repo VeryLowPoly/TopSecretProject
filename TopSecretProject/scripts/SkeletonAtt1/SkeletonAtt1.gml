@@ -4,6 +4,7 @@ if (sprite_index != spr_skeleton_att1) sprite_index = spr_skeleton_att1;
 
 
 
+
 enemyGetCollide();
 
 }
