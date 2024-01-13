@@ -9,7 +9,7 @@ with (other) //"other" returns id of enemy we're colliding with instead of all o
 	flash = 5;
 	if (canHit) {
 	isHit = true;
-	var hitfx = instance_create_layer(x,y-4,"FxLayer",obj_hitfx1);
+	var hitfx = instance_create_layer(x,y-choose(20,32,10,25,37),"FxLayer",obj_hitfx1);
 	with (hitfx) {
 		image_speed = 1;	
 	audio_play_sound(snd_hit1,3,false);

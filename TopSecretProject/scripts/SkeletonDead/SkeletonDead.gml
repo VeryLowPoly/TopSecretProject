@@ -1,14 +1,15 @@
 function SkeletonDead(){
 if (sprite_index != spr_skeleton_die) {sprite_index = spr_skeleton_die;}
 
-if (image_index > 6)
+if (image_index >= 7)
 {
 	image_speed = 0;
 	image_index = 6;
-	image_alpha --;
+	alarm_set(0,10);
 }
 
-if (image_alpha < 0) {instance_destroy();}
+
+
 
 
 }

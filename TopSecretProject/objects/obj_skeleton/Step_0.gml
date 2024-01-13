@@ -5,7 +5,7 @@
 
 switch (state) {
 	case Skeletonstates.IDLE: SkeletonIdle(); break;
-	//case Skeletonstates.WALK: SkeletonWalk(); break;
+	case Skeletonstates.WALK: SkeletonWalk(); break;
 	case Skeletonstates.FLINCH: SkeletonFlinch(); break;
 	case Skeletonstates.DEAD: SkeletonDead(); break;
 	case Skeletonstates.ATT1: SkeletonAtt1(); break;

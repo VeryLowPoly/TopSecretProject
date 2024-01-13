@@ -5,7 +5,7 @@
 hsp = 0;
 vsp = 0;
 grav = 0.3;
-
+image_xscale = -image_xscale;
 
 //hp variables
 hp = 3;
@@ -20,10 +20,7 @@ healthbar_height = 4;
 healthbar_x = x;
 healthbar_y = y - 68;
 
-
 state = Skeletonstates.IDLE;
-
-
 
 
 

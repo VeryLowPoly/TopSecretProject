@@ -10,7 +10,6 @@ draw_self();
 shader_reset();
 }
 
-draw_text(x,y,isHit);
 
 //draw border bg
 draw_sprite(spr_healthbarbg,0,x-24,y-70)
@@ -21,7 +20,6 @@ draw_sprite_stretched(spr_healthbar,0,x-24,y-70,min((hp/hp_max) * healthbar_widt
 //draw border
 draw_sprite(spr_healthbarborder,0,x-24,y-70)
 }
-
 
 
 

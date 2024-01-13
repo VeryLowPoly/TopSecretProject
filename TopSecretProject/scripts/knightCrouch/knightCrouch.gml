@@ -24,7 +24,7 @@ getInputs();
 		state = PlayerStates.CROUCHATT1;
 		sprite_index = spr_knight_cAtt1;
 		image_index = 0;
-		var hbox = instance_create_layer(x,y,"Player",obj_hboxHandler);	
+		var hbox = instance_create_layer(x,y,"Player",obj_hboxHandler,{image_xscale: other.image_xscale});	
 		with (hbox) {
 			if (didHit) {
 				obj_PlayerTemplate.didHit = true;	
