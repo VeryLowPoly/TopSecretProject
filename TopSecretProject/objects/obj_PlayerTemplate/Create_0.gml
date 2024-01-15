@@ -21,7 +21,7 @@ canShoot = false;		//variable for allowing ranged attack
 canAbility = false;		//variable for allowing ability activation
 canItem = false;		//variable for using an item on the fly
 canHeal = false;		//potential healing mechanic?
-canFlinch = false;		//variable for flinch (in case we want invinvibility after flinch)
+canFlinch = true;		//variable for flinch (in case we want invinvibility after flinch)
 #endregion
 
 

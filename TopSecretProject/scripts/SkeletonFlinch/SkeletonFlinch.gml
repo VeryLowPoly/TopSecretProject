@@ -3,9 +3,12 @@ function SkeletonFlinch(){
 	
 	vsp += grav;
 	hsp = lerp(hsp,0,0.3);
+	canHit = false;
 	
 	if (image_index > 3) && (hp > 0) {
-		state = Skeletonstates.IDLE;	
+		state = Skeletonstates.IDLE;
+		sprite_index = spr_skeleton_idle;
+		image_index = 0;
 		canHit = true;
 		isHit = false;
 	}

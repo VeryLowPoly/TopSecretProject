@@ -22,7 +22,7 @@ draw_sprite(spr_healthbarborder,0,x-24,y-70)
 }
 
 
-
+draw_text(x, y+6, alarm[1]);
 
 
 

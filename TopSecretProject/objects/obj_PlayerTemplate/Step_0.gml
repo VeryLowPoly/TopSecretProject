@@ -25,6 +25,9 @@ switch (state)
 		//Sprint State
 		case PlayerStates.SPRINT: knightSprint(); break;
 		
+		//Flinch State
+		case PlayerStates.FLINCH: knightFlinch(); break;
+		
 		//Duck/Crouching state
 		case PlayerStates.CROUCH: knightCrouch(); break;
 #endregion

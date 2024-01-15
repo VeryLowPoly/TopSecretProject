@@ -5,10 +5,12 @@ with (other) //"other" returns id of enemy we're colliding with instead of all o
 {
 	//if not invincible or whatever (later on)
 	
-	hp--;
-	flash = 5;
+	
+	
 	if (canHit) {
 	isHit = true;
+	flash = 5;
+	hp--;
 	var hitfx = instance_create_layer(x,y-choose(20,32,10,25,37),"FxLayer",obj_hitfx1);
 	with (hitfx) {
 		image_speed = 1;	

@@ -70,5 +70,6 @@ enum Skeletonstates {
 
 
 global.CurrentAttHB = noone;
+global.Efollow = noone;
 
 }
