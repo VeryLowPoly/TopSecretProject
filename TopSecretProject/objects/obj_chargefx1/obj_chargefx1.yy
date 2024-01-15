@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_hitef1",
-    "path": "sprites/spr_hitef1/spr_hitef1.yy",
+    "name": "obj_chargefx",
+    "path": "sprites/obj_chargefx/obj_chargefx.yy",
   },
   "spriteMaskId": null,
   "visible": true,

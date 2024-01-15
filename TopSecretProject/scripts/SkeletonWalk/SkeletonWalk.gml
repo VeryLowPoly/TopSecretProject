@@ -29,11 +29,12 @@ if (alarm[1] <= 0) {
 				image_index: 0,
 			});
 			with (Ehbox) {
-				image_speed = 1;	
+				image_speed = 1;
+				audio_play_sound(snd_slash,3,false);
 			}
-			var Efx = instance_create_layer(x,y-(sprite_height/2)+8,"Enemy",obj_enemyHboxHandler)
+			var Efx = instance_create_layer(x,y-(sprite_height/2)+8,"Enemy",obj_chargefx1)
 			with (Efx) {
-				audio_play_sound(snd_slash,3,false);	
+				audio_play_sound(snd_slash2,3,false);
 			}
 			sprite_index = spr_skeleton_att1;
 			image_index = 0;
